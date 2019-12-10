@@ -64,7 +64,7 @@ namespace BooleanWhileNDostatement
                     case "B":
                         Console.WriteLine("You guessed B.Try again one more time.");
                         Console.WriteLine("Guess a letter?");
-                        color = Console.ReadLine();
+                        guess = Console.ReadLine();
                         break;
                     case "C":
                         Console.WriteLine("You guessed C.Try again maybe!");
