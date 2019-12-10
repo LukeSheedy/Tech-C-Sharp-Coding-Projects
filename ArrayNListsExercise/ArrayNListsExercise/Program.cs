@@ -40,7 +40,6 @@ class Program
 
 
 
-
         int[] Array2 = { 100, 200, 300, 400, 500 };
         Console.WriteLine("Please choose from a Array number 5-9");
         int Input = Convert.ToInt32(Console.ReadLine());
@@ -105,15 +104,6 @@ class Program
             Console.WriteLine("error please try again!");
         }
         Console.ReadLine();
-
-
-
-
-
-
-
-
-
 
     }
 }
