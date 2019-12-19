@@ -10,7 +10,7 @@ namespace LoopNIterationExercise
     {
         static void Main(string[] args)
         {
-            ////1:[FINISHED] for the first question! 
+            //1:[FINISHED] for the first question! 
             //string[] names = { "Bob", "Joe", "Bill", "Josh" };
             //Console.WriteLine("What is a good last name?");
             //string lname = Console.ReadLine();
@@ -35,7 +35,7 @@ namespace LoopNIterationExercise
             //}
 
 
-            ////3:[FINISHED]  for the Third question loop will exutue
+            //////3:[FINISHED]  for the Third question loop will execute
             //for (int i = 0; i < 10; i++)
             //{
             //    Console.WriteLine("Finish execute loop");
@@ -43,7 +43,7 @@ namespace LoopNIterationExercise
             //Console.ReadLine();
 
 
-            ////4: [FINISHED]create looop where compairson is used a “<” operator and iterates up until 5
+            //////4: [FINISHED]create looop where compairson is used a “<” operator and iterates up until 5
             //for (int i = 0; i < 10; i++)
             //{
             //    if (i < 5)
@@ -53,7 +53,7 @@ namespace LoopNIterationExercise
             //}
             //Console.ReadLine();
 
-            ////5: [FINISHED]create looop where compairson is used a “<=” operator and iterates 9 times
+            //////5: [FINISHED]create looop where compairson is used a “<=” operator and iterates 9 times
             //for (int i = 0; i < 10; i++)
             //{
             //    if (i <= 8)
@@ -64,62 +64,50 @@ namespace LoopNIterationExercise
             //Console.ReadLine();
 
 
-            ////6:[HELP] create list of strings all unquie , creating a loop that iterates through the names and isplays the index 
+            //////6:[FINISHED] create list of strings all unquie , creating a loop that iterates through the names and displays the index number
 
 
-            String[] states = { "WA", "CO", "OR", "KS", "IN", "IL", "MS" };
-           
-            Console.WriteLine("Please choose which state is your favorite: WA, OR, CO, KS, MS, IN, IL, MS ");
-            string favstate = Console.ReadLine();
-            String searchString = favestate;
-            int index = Array.IndexOf(states, searchString);
-            for (int j = 0; j <= 7; j++)
+            //String[] states = { "WA", "CO", "OR", "KS", "IN", "IL", "MS" };
+            //Console.WriteLine("Please choose which state is your favorite: WA, OR, CO, KS, IN, IL, MS ");
+            //string favstate = Console.ReadLine();
 
+            //for (int j = 0; j < 7; j++)
+            //{
+            //    if (favstate == states[j])
+            //    {
+            //        Console.WriteLine(j);
+            //        break;//// 8:[FINISHED] once found breaks from iteration
+            //    }
+            //    //// 7:[FINISHED] add to above loop that tells user isnt on the list
+            //    if (j == 6)
+            //    {
+            //        Console.WriteLine("Please choose from those states!");
+            //    }
+
+            //}
+            //Console.ReadLine();
+
+
+            ////9: [FINISHED] create list of string that identical and ask user to display them.
+            String[] waters = { "Tuna", "Tuna", "Dolphin", "Shark", "Whale" };
+            Console.WriteLine("Which one? Tuna, Dolphin, Shark, Whale");
+            string choice = Console.ReadLine();
+            for (int j = 0; j < 5; j++)
             {
+                if (choice == waters[j])
 
-                if (favstate == states[j])
                 {
-                    Console.WriteLine(states[j]);
-                    break;//// 8:[FINISHED] once found breaks from iteration
+                    Console.WriteLine(j);
+
                 }
-                //// 7:[FINISHED] add to above loop that tells user isnt on the list
-                else
+                break;
+                if (j == 5) // 10:[FINISHED] adding code to please use choose only on list
                 {
-                    Console.WriteLine("Please choose from those states!");
-                } 
+                    Console.WriteLine("error please try one on the list!");
+                }
 
             }
             Console.ReadLine();
-
-            /// index of
-
-            //9: [HELP] create list of string that identical and ask user to display them.
-            //List<string> waters = new List<string>();
-            //waters.Add("Tuna");//should show 0
-            //waters.Add("Tuna");// shold show 1
-            //waters.Add("Dolphin");
-            //waters.Add("Shark");
-            //waters.Add("Whale");
-
-            //Console.WriteLine("Which one? Tuna, Dolphin, Shark, Whale");
-            //string choice = Console.ReadLine();
-            //String searchString = favestate;
-            //int index = Array.IndexOf(states, searchString);
-            //for (int j = 0; j < 5; j++)
-            //{
-            //    if (choice == waters[j])
-
-            //    {
-            //        Console.WriteLine(waters[j]);
-            //    }
-            //    else// 10:[FINISHED] adding code to please use choose only on list
-            //    {
-            //        Console.WriteLine("error please try one on the list!");
-            //    }
-            //    Console.ReadLine();
-
-            //}
-
 
             ////11: [HELP]
             //List<string> places = new List<string>();
